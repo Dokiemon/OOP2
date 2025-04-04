@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "20.19.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/workspaces/OOP2/ProjetinhoMassa"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "expresse": "^1.0.2"
+  }
+}
