@@ -8,7 +8,11 @@ app.get('', (req, res) => {
 app.get('/parental', (req, res) => {
     res.send('MÃE COVARDE E PAI COVARDE')
 })
-const PORT= process.env.PORT || 3000
-app.listen(PORT, () => {
+
+app.get('/content', (req, res) => {
+    res.sendFile(__dirname + "/main/index.html")
+})
+
+app.listen(3000, () => {
     console.log(`Example app listening on port `)
   })
